@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class StatServiceTest {
+class StatisticServiceTest {
     @Test
     void shouldCalculateSum() {
         StatisticService service = new StatisticService();

@@ -45,8 +45,7 @@ public class StatisticService {
         int summore = 0;
         for (int sale : sales) {
             if (sale > average) {
-                sale = 1;
-                summore += sale;
+                summore++;
             }
         }
         return summore;
@@ -58,8 +57,7 @@ public class StatisticService {
         int sumless = 0;
         for (int sale : sales) {
             if (sale < average) {
-                sale = 1;
-                sumless += sale;
+                sumless++;
             }
         }
         return sumless;
